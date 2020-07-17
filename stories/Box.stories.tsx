@@ -1,5 +1,4 @@
 import React from 'react';
-import { Thing, Props } from '../src';
 import { Box } from '../src/index';
 
 export default {
