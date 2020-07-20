@@ -4,6 +4,7 @@ import { Box } from '../src/index';
 export default {
   title: 'Welcome',
 };
+const foo = 'foo';
 
 const styles = {
   bg: 'dodgerblue',
@@ -22,6 +23,6 @@ export const Default = () => (
     {...styles}
   >
     <div>foo</div>
-    <div>foo</div>
+    <div>{foo}</div>
   </Box>
 );
