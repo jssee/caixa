@@ -1,0 +1,8 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["healthier", "healthier/react", "plugin:react-hooks/recommended"]
+}
