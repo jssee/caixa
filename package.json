@@ -25,7 +25,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "tsdx lint"
+      "pre-commit": "tsdx lint",
+      "pre-push": "yarn bundlecheck"
     }
   },
   "prettier": {
@@ -59,6 +60,9 @@
     "@types/react-dom": "^16.9.8",
     "babel-loader": "^8.1.0",
     "bundlesize": "^0.18.0",
+    "eslint": "^7.5.0",
+    "eslint-config-healthier": "^3.2.0",
+    "eslint-plugin-react-hooks": "^4.0.8",
     "husky": "^4.2.5",
     "react": "^16.13.1",
     "react-docgen-typescript-loader": "^3.7.2",
